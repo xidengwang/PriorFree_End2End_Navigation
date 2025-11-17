@@ -1,0 +1,57 @@
+name: end2end_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - gymnasium
+  - cvxpy
+  - cvxopt
+  - numba
+  - pyside6
+  - pillow
+  - pyyaml
+  - requests
+  - tqdm
+  
+  - pip
+  - pip:
+    - coloredlogs==15.0.1
+    - cvxpylayers==0.1.9
+    - diffcp==1.1.4
+    - dill==0.4.0
+    - ecos
+    - flatbuffers==25.9.23
+    - fsspec==2025.7.0
+    - gctl==1.2
+    - grpcio==1.75.1
+    - humanfriendly==10.0
+    - imageio==2.37.0
+    - ir-sim==2.7.1
+    - loguru==0.7.3
+    - markdown-it-py==3.0.0
+    - mdurl==0.1.2
+    - ml-dtypes==0.5.3
+    - onnx==1.19.0
+    - onnxruntime==1.23.0
+    - protobuf==6.33.0
+    - pygments==2.19.2
+    - rich==14.0.0
+    - scipy==1.13.0
+    - shapely==2.1.1
+    - stable-baselines3==2.7.0
+    - sympy==1.13.1
+    - tbparse==0.0.9
+    - tensorboard==2.20.0

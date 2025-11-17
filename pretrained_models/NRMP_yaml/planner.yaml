@@ -1,0 +1,39 @@
+# mpc
+receding: 10
+step_time: 0.1
+ref_speed: 5
+device: 'cpu'
+time_print: True
+collision_threshold: 0.01
+
+robot:
+  kinematics: 'diff'
+  max_speed: [5, 1.0]
+  max_acce: [2, 0.4]
+  vertices: [[-0.2500, -0.4000], [-0.2500, 0.2000], [0.0000, 0.7000], [0.2500, 0.2000], [0.2500, -0.4000]]
+
+ipath:
+  # waypoints:  [[0, 20, 0], [60, 20, 0]]
+  curve_style: 'dubins'   # 'dubins' or reeds
+  min_radius: 3.0
+  loop: False
+  arrive_threshold: 5.0
+  close_threshold: 0.1
+  ind_range: 10
+  arrive_index_threshold: 1
+
+pan:
+  iter_num: 2
+  dune_max_num: 100
+  nrmp_max_num: 5
+  dune_checkpoint: 'pretrained_models/NRMP_yaml/dune_ship.pth'
+  iter_threshold: 0.1
+
+adjust:
+  q_s: 0.73
+  p_u: 1.0
+  eta: 10.0
+  d_max: 2.5
+  d_min: 0.1
+  bk: 1.0
+
