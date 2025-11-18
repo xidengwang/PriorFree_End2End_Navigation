@@ -207,3 +207,16 @@ We are committed to open-sourcing the complete training pipeline. The code and i
 In the meantime, we provide the pre-trained models used in our experiments to allow for the full reproduction of our evaluation results.
 
 We appreciate your understanding and interest in our work. Please "watch" this repository to be notified of future updates, including the release of the training code.
+
+## Physical Experiments
+
+*To validate the effectiveness and robustness of our proposed method, we conducted a series of experiments in real-world physical environments. The video recordings of our six core experiments are available on YouTube via the links below.*
+
+| No. | Experiment Description | Video Demo |
+| :---: | :--- | :---: |
+| **1** | **Navigation in Non-Convex Environments** <br>Navigating from the leftmost side to the rightmost side of the annular fan-shaped pool. | [Watch](https://youtu.be/2vQvciHE5nQ) |
+| **2** | **Linear Navigation** <br> Navigating from the top-left to the far-right of the environment. | [Watch](https://youtu.be/dMHNBcFfxos) |
+| **3** | **Reverse Navigation in Non-Convex Environments** <br> Navigating from the rightmost side to the leftmost side. | [Watch](https://youtu.be/JI68CFEDjp0) |
+| **4** | **Right-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-left. | [Watch](https://youtu.be/TYaJu90E2NU) |
+| **5** | **Left-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-right. | [Watch](https://youtu.be/QxsXPzGt7C8) |
+| **6** | **Non-Convex Navigation with Obstacle Avoidance** <br> Navigating from the leftmost side to the rightmost side by bypassing an obstacle placed in the path. | [Watch](https://youtu.be/BlnDSGzK1CI) |
