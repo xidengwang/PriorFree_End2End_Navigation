@@ -124,10 +124,10 @@ if __name__ == "__main__":
         raise FileNotFoundError(f"FATAL: Model file not found at '{RL_MODEL_PATH}'!")
 
     eval_generator = OverlappingObstacleGenerator(
-        bezier_n=5,
-        band_width=3,
-        obstacle_density=0.5,
-        x_variation_amplitude=20,
+        bezier_n=3,
+        band_width=10,
+        obstacle_density=0.06,
+        x_variation_amplitude=10,
         min_obs_radius=1.0,
         max_obs_radius=15.0,
         verbose=False
