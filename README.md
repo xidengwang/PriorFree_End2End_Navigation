@@ -35,7 +35,7 @@ This project is built upon several excellent open-source projects. We extend our
 
 ## Introduction Video
 
-[![PriorFree End-to-End Navigation Project Video](https://img.youtube.com/vi/3GgnUOSXJGo/0.jpg)](https://www.youtube.com/watch?v=3GgnUOSXJGo)
+[![PriorFree End-to-End Navigation Project Video](https://img.youtube.com/vi/gXQuZ8att8k/0.jpg)](https://www.youtube.com/watch?v=gXQuZ8att8k)
 
 **Click the image above to watch our introduction video**
 
@@ -214,9 +214,9 @@ We appreciate your understanding and interest in our work. Please "watch" this r
 
 | No. | Experiment Description | Video Demo |
 | :---: | :--- | :---: |
-| **1** | **Navigation in Non-Convex Environments** <br>Navigating from the leftmost side to the rightmost side of the annular fan-shaped pool. | [Watch](https://youtu.be/2vQvciHE5nQ) |
-| **2** | **Linear Navigation** <br> Navigating from the top-left to the far-right of the environment. | [Watch](https://youtu.be/dMHNBcFfxos) |
-| **3** | **Reverse Navigation in Non-Convex Environments** <br> Navigating from the rightmost side to the leftmost side. | [Watch](https://youtu.be/JI68CFEDjp0) |
-| **4** | **Right-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-left. | [Watch](https://youtu.be/TYaJu90E2NU) |
-| **5** | **Left-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-right. | [Watch](https://youtu.be/QxsXPzGt7C8) |
-| **6** | **Non-Convex Navigation with Obstacle Avoidance** <br> Navigating from the leftmost side to the rightmost side by bypassing an obstacle placed in the path. | [Watch](https://youtu.be/BlnDSGzK1CI) |
+| **1** | **Navigation in Non-Convex Environments** <br>Navigating from the leftmost side to the rightmost side of the annular fan-shaped pool. | [Watch](https://youtu.be/M9NY2dwnobk) |
+| **2** | **Linear Navigation** <br> Navigating from the top-left to the far-right of the environment. | [Watch](https://youtu.be/7t1COQHV2RE) |
+| **3** | **Reverse Navigation in Non-Convex Environments** <br> Navigating from the rightmost side to the leftmost side. | [Watch](https://youtu.be/NO-6525l--M) |
+| **4** | **Right-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-left. | [Watch](https://youtu.be/Q1w3GSyH6Dk) |
+| **5** | **Left-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-right. | [Watch](https://youtu.be/3U8uF7608eU) |
+| **6** | **Non-Convex Navigation with Obstacle Avoidance** <br> Navigating from the leftmost side to the rightmost side by bypassing an obstacle placed in the path. | [Watch](https://youtu.be/Vpq8J5FYd4Y) |
