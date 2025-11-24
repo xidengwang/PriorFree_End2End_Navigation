@@ -14,7 +14,7 @@
   coordinates, and the real-time perception features. Extensive simulations demonstrate the framework's 
   high success rate and robust generalization to unseen non-convex scenarios. The practicality and 
   effectiveness of this map-less, purely reactive system are further validated through successful 
-  real-world field tests on an Autonomous Surface Vehicle (ASV) platform, showcasing its capability for 
+  real-world field tests on an autonomous surface vehicle (ASV) platform, showcasing its capability for 
   truly autonomous navigation in complex environments. Future work will focus on handling dynamic 
   obstacles and improving robustness in escaping from extremely non-convex traps.
 
