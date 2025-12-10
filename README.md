@@ -3,20 +3,7 @@
 ---
 
 ### Abstract
-  >Real-world autonomous navigation demands the ability to operate in unknown, unstructured environments 
-  using only onboard, limited-range sensor data, without reliance on prior maps or global information. 
-  To address this fundamental challenge, this paper introduces a novel end-to-end navigation framework 
-  that seamlessly integrates perception and planning. The core of our framework is Perception Net, an 
-  interpretable, optimization-unfolded network that efficiently processes raw point clouds into a 
-  compact representation of the immediate environment. This is coupled with a reinforcement learning 
-  planner featuring a velocity-adaptive Bézier action space, which learns a sophisticated, reference-free 
-  navigation policy. The agent's decisions are based solely on its own velocity, the relative goal 
-  coordinates, and the real-time perception features. Extensive simulations demonstrate the framework's 
-  high success rate and robust generalization to unseen non-convex scenarios. The practicality and 
-  effectiveness of this map-less, purely reactive system are further validated through successful 
-  real-world field tests on an autonomous surface vehicle (ASV) platform, showcasing its capability for 
-  truly autonomous navigation in complex environments. Future work will focus on handling dynamic 
-  obstacles and improving robustness in escaping from extremely non-convex traps.
+  Real-world autonomous navigation demands the ability to operate in unknown and unstructured environments using only onboard, limited-range sensor data, without reliance on prior maps or global information. To address this fundamental challenge, this paper introduces a novel end-to-end navigation framework composed of perception and planning components. By jointly optimizing these components, the framework avoids the compounding errors inherent in traditional, decoupled pipelines. The perception component, Perception Net, is an interpretable deep unfolding network that efficiently processes raw point clouds into a compact representation of the features of arbitrary obstacles in the current environment, significant advantages in both efficiency and accuracy. The planning component is a reinforcement learning (RL) planner featuring a velocity-adaptive Bézier action space, which learns a smooth and kinematically feasible navigation policy with a forward-looking capability to handle complex, non-convex environments. The agent's decisions are based solely on its own state, the goal coordinates, and the real-time perception features. Extensive simulations demonstrate the framework's high success rate and robust generalization to and non-convex scenarios. The effectiveness of this end-to-end framework are further validated through successful real-world field tests on an autonomous surface vehicle (ASV) platform, showcasing its capability to operate as a map-less and forward-looking system for truly autonomous navigation in complex environments.
 
 ---
 
