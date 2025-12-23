@@ -16,7 +16,7 @@ This project is built upon several excellent open-source projects. We extend our
 
 ## Introduction Video
 
-[![PriorFree End-to-End Navigation Project Video](https://img.youtube.com/vi/gXQuZ8att8k/0.jpg)](https://www.youtube.com/watch?v=gXQuZ8att8k)
+[![PriorFree End-to-End Navigation Project Video](https://img.youtube.com/vi/rPnY9P4YHyo/0.jpg)](https://www.youtube.com/watch?v=rPnY9P4YHyo)
 
 **Click the image above to watch our introduction video**
 
