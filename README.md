@@ -1,19 +1,6 @@
 # End-to-End Autonomous Navigation: A Deep Unfolding and Reinforcement Learning-Based Approach
 ---
 
-### Acknowledgments & License
-
-This project is built upon several excellent open-source projects. We extend our sincere gratitude to their developers.
-
-*   **[Stable Baselines3](https://github.com/DLR-RM/stable-baselines3):** Our reinforcement learning agent is implemented using the robust and versatile Stable Baselines3 library.
-
-*   **[NeuPAN](https://github.com/hanruihua/NeuPAN):** Our implementation and comparative analysis heavily reference and include modified code from the official NeuPAN repository. We thank the original authors for making their work public.
-
-**License:** The original NeuPAN project is licensed under the **GNU General Public License v3.0**. In accordance with its terms, any derivative work must also be distributed under the same license. Therefore, this repository and all its contents are also licensed under the **GNU General Public License v3.0**. Please see the `LICENSE` file for more details.
-
-
----
-
 ## Introduction Video
 
 [![PriorFree End-to-End Navigation Project Video](https://img.youtube.com/vi/rPnY9P4YHyo/0.jpg)](https://www.youtube.com/watch?v=rPnY9P4YHyo)
@@ -201,3 +188,16 @@ We appreciate your understanding and interest in our work. Please "watch" this r
 | **4** | **Right-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-left. | [Watch](https://youtu.be/Q1w3GSyH6Dk) |
 | **5** | **Left-Side Obstacle Avoidance** <br> Navigating around an obstacle positioned on the front-right. | [Watch](https://youtu.be/3U8uF7608eU) |
 | **6** | **Non-Convex Navigation with Obstacle Avoidance** <br> Navigating from the leftmost side to the rightmost side by bypassing an obstacle placed in the path. | [Watch](https://youtu.be/Vpq8J5FYd4Y) |
+
+
+---
+
+### Acknowledgments & License
+
+This project is built upon several excellent open-source projects. We extend our sincere gratitude to their developers.
+
+*   **[Stable Baselines3](https://github.com/DLR-RM/stable-baselines3):** Our reinforcement learning agent is implemented using the robust and versatile Stable Baselines3 library.
+
+*   **[NeuPAN](https://github.com/hanruihua/NeuPAN):** Our implementation and comparative analysis heavily reference and include modified code from the official NeuPAN repository. We thank the original authors for making their work public.
+
+**License:** The original NeuPAN project is licensed under the **GNU General Public License v3.0**. In accordance with its terms, any derivative work must also be distributed under the same license. Therefore, this repository and all its contents are also licensed under the **GNU General Public License v3.0**. Please see the `LICENSE` file for more details.
