@@ -2,12 +2,33 @@
 
 # End-to-End Autonomous Navigation: A Deep Unfolding and Reinforcement Learning-Based Approach
 
-[![Stars](https://img.shields.io/github/stars/xidengwang/PriorFree_End2End_Navigation?style=flat-square&logo=github)](https://github.com/xidengwang/PriorFree_End2End_Navigation/stargazers)
-<!-- [![PDF IEEE](https://img.shields.io/badge/PDF-IEEE-green?style=flat-square)](https://ieee.org/) -->
+[![Stars](https://img.shields.io/github/stars/xidengwang/PriorFree_End2End_Navigation?lightgray?style=flat-square&logo=github)](https://github.com/xidengwang/PriorFree_End2End_Navigation/stargazers)
 [![Video Youtube](https://img.shields.io/badge/Video-Youtube-blue?style=flat-square)](https://www.youtube.com/playlist?list=PL_hYGmp6yWG5OtT2LkFjoIMkK5XY9QGq6)
+<!-- [![PDF IEEE](https://img.shields.io/badge/PDF-IEEE-green?style=flat-square)](https://ieee.org/) -->
 
 </div>
+
 ---
+
+## Table of Contents
+
+* [News](#news)
+* [Introduction Video](#introduction-video)
+* [Usage Guide](#usage-guide)
+  * [1. Clone the Repository](#1-clone-the-repository)
+  * [2. Environment Configuration](#2-environment-configuration)
+* [Running Experiments](#running-experiments)
+  * [Experiment 1: Perception Net vs. DUNE Comparison](#experiment-1-perception-net-vs-dune-comparison)
+  * [Experiment 2: Comparison with DWA](#experiment-2-comparison-with-dwa)
+  * [Experiment 3: Comparison with NRMP](#experiment-3-comparison-with-nrmp)
+  * [Experiment 4: Non-Convex Environment Test](#experiment-4-non-convex-environment-test)
+* [Model Training](#model-training)
+* [Physical Experiments](#physical-experiments)
+* [Acknowledgments & License](#acknowledgments--license)
+
+## News
+
+* **2026-03-21**: Our paper is accepted by **IEEE Transactions on Industrial Electronics!**
 
 ## Introduction Video
 
