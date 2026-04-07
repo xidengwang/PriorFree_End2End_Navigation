@@ -1,4 +1,12 @@
+<div align="center">
+
 # End-to-End Autonomous Navigation: A Deep Unfolding and Reinforcement Learning-Based Approach
+
+[![Stars](https://img.shields.io/github/stars/xidengwang/PriorFree_End2End_Navigation?style=flat-square&logo=github)](https://github.com/xidengwang/PriorFree_End2End_Navigation/stargazers)
+<!-- [![PDF IEEE](https://img.shields.io/badge/PDF-IEEE-green?style=flat-square)](https://ieee.org/) -->
+[![Video Youtube](https://img.shields.io/badge/Video-Youtube-blue?style=flat-square)](https://www.youtube.com/playlist?list=PL_hYGmp6yWG5OtT2LkFjoIMkK5XY9QGq6)
+
+</div>
 ---
 
 ## Introduction Video
