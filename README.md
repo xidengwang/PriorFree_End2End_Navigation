@@ -28,7 +28,7 @@
 
 ## News
 
-* **2026-03-21**: Our paper is accepted by **IEEE Transactions on Industrial Electronics!**
+* **2026-03-21**: Our paper is accepted by _**IEEE Transactions on Industrial Electronics**_ !
 
 ## Introduction Video
 
