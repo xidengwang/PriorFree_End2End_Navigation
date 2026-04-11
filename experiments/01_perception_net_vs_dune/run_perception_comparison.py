@@ -193,11 +193,12 @@ def DUNE_distest(k: int, G: np.ndarray, b: np.ndarray, model_path: str, low: flo
 
 def benchmark_model_speed(model_class: type, model_path: str, G: np.ndarray, b: np.ndarray, 
                           sample_sizes: List[int], is_dune: bool = False) -> List[float]:
-    """Measures the END-TO-END inference time (Network + Geometric Post-processing)."""
+    """Measures the inference time for a given model over various sample sizes."""
     timings = []
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"\nBenchmarking {model_class.__name__} end-to-end on {device}...")
+    print(f"\nBenchmarking {model_class.__name__} on {device}...")
 
+    # Load model once
     if is_dune:
         model = model_class(output_dim=G.shape[0])
         state_dict = torch.load(model_path, map_location=device, weights_only=True)
@@ -210,45 +211,24 @@ def benchmark_model_speed(model_class: type, model_path: str, G: np.ndarray, b: 
     model.load_state_dict(new_state_dict)
     model.to(device).eval()
     
-    G_torch = torch.from_numpy(G).float().to(device)
-    b_torch = torch.from_numpy(b).float().to(device) 
-    H_torch = G_torch @ G_torch.T                     
-    
     for k in tqdm(sample_sizes, desc=f"Timing {model_class.__name__}"):
         points = np.random.uniform(-100, 100, size=(k, 2)).astype(np.float32)
         input_tensor = torch.from_numpy(points).to(device)
-        
-        for _ in range(10):
-            with torch.no_grad():
-                _ = model(input_tensor)
+
+        # GPU warm-up
+        for _ in range(2):
+            _ = model(input_tensor)
         
         if device.type == 'cuda':
             torch.cuda.synchronize()
             
+        # Actual timing
         start_time = time.perf_counter()
-        
-        with torch.no_grad():
-            output_nn = model(input_tensor)
-            mu_T = output_nn.unsqueeze(1) 
-            p_col = input_tensor.unsqueeze(-1) 
-            
-            if is_dune:
-                mu_T_G = mu_T @ G_torch          
-                mu_T_b = mu_T @ b_torch         
-                nn_dist = (mu_T_G @ p_col - mu_T_b).squeeze()
-                nn_dist = torch.clamp(nn_dist, min=0.0)
-            else:
-                quad_term = -0.25 * (mu_T @ H_torch @ output_nn.unsqueeze(-1)).squeeze()
-                mu_T_G = mu_T @ G_torch
-                mu_T_b = mu_T @ b_torch
-                linear_term = (mu_T_G @ p_col - mu_T_b).squeeze()
-                nn_dist_sq = quad_term + linear_term
-                nn_dist = torch.sqrt(torch.clamp(nn_dist_sq, min=0.0))
-        
+        _ = model(input_tensor)
         if device.type == 'cuda':
             torch.cuda.synchronize()
-        
         end_time = time.perf_counter()
+        
         timings.append(end_time - start_time)
         
     return timings
