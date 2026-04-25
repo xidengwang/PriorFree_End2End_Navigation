@@ -4,7 +4,7 @@
 
 [![Stars](https://img.shields.io/github/stars/xidengwang/PriorFree_End2End_Navigation?lightgray?style=flat-square&logo=github)](https://github.com/xidengwang/PriorFree_End2End_Navigation/stargazers)
 [![Video Youtube](https://img.shields.io/badge/Video-Youtube-blue?style=flat-square)](https://www.youtube.com/playlist?list=PL_hYGmp6yWG5OtT2LkFjoIMkK5XY9QGq6)
-<!-- [![PDF IEEE](https://img.shields.io/badge/PDF-IEEE-green?style=flat-square)](https://ieee.org/) -->
+[![PDF IEEE](https://img.shields.io/badge/PDF-IEEE-green?style=flat-square)](https://ieeexplore.ieee.org/document/11489152)
 
 </div>
 
